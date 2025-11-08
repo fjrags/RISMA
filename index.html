@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RISMA Al-Muhajirin</title>
+    <!-- 1️⃣ Font umum dulu -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- 2️⃣ Font arabic biar hero ayat tampil bagus -->
+  <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<script src="script.js"></script>
+<body>
+
+  <!-- Header -->
+  <header>
+     <div class="logo">
+    <img src="assets/img/logo.jpg" alt="Logo RISMA" class="logo-icon">
+    <span>RISMA <strong>Al-Muhajirin</strong></span>
+  </div>
+  <!-- tombol burger -->
+  <div class="burger" id="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+  </div>
+    <nav>
+      <ul>
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#kegiatan">Kegiatan</a></li>
+        <li><a href="#info">Info</a></li>
+        <li><a href="#struktur">Struktur</a></li>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+ <!-- ===== HERO SECTION ===== -->
+<section id="beranda" class="hero">
+  <div class="overlay"></div>
+
+  <div class="hero-content">
+    <h1 data-aos="fade-up">
+      Remaja Islam Masjid<br><span>Al-Muhajirin</span>
+    </h1>
+
+    <!-- Slogan animasi -->
+    <p id="typewriter" class="typewriter"></p>
+
+    <a href="#tentang" class="btn" data-aos="zoom-in">Mulai Jelajah</a>
+
+    <!-- Ayat Qur'an dinamis -->
+    <div class="ayat" id="ayat">
+      <p class="arab">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+      <p class="arti">"Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang."</p>
+      <span class="sumber">QS. Al-Fatihah: 1</span>
+    </div>
+  </div>
+
+  <!-- Scroll indicator -->
+  <div class="scroll-indicator">
+    <span></span>
+  </div>
+
+   <!-- Ticker Jadwal Sholat -->
+</section>
+  <div class="ticker-sholat">
+  <span id="jadwal-sholat">Memuat jadwal salat hari ini...</span>
+</div>
+
+<!-- Kegiatan -->
+  <section id="kegiatan" class="fade-in">
+  <h2>Kegiatan Kami</h2>
+  <div class="kegiatan-grid">
+
+    <div class="kegiatan-card">
+      <img src="assets/img/kajian.jpg" alt="Kajian Rutin">
+      <div class="card-body">
+        <h3>🕌 Kajian Rutin</h3>
+        <p>Menambah ilmu dan iman melalui kajian mingguan bersama ustadz muda inspiratif.</p>
+      </div>
+    </div>
+
+    <div class="kegiatan-card">
+      <img src="assets/img/seminar.jpg" alt="Pelatihan dan Seminar">
+      <div class="card-body">
+        <h3>🎓 Pelatihan & Seminar</h3>
+        <p>Meningkatkan potensi dakwah dan kepemimpinan remaja masjid dengan mentor berpengalaman.</p>
+      </div>
+    </div>
+
+    <div class="kegiatan-card">
+      <img src="assets/img/baksos.jpg" alt="Bakti Sosial">
+      <div class="card-body">
+        <h3>💚 Bakti Sosial</h3>
+        <p>Kegiatan berbagi dan peduli masyarakat sekitar, mempererat ukhuwah Islamiyah.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Info -->
+  <section id="info" class="fade-in">
+  <h2>Info Terbaru</h2>
+
+  <div class="info-slider" id="infoSlider">
+    <div class="info-card active">
+      <h3>📢 Kajian Malam Sabtu</h3>
+      <p>Kajian bersama Ustadz Ridwan di Masjid Al-Muhajirin, ba’da Isya.</p>
+    </div>
+
+    <div class="info-card active">
+      <h3>🤝 Bakti Sosial</h3>
+      <p>Pengumpulan donasi untuk panti asuhan akan dimulai pekan depan.</p>
+    </div>
+
+    <div class="info-card active">
+      <h3>🎤 Lomba Adzan</h3>
+      <p>Ikuti lomba adzan antar remaja masjid se-kecamatan pada Ahad depan!</p>
+    </div>
+  </div>
+</section>
+
+
+  <!--Struktur-->
+<section id="struktur" class="fade-in">
+  <h2>Struktur Organisasi</h2>
+  <div class="struktur-grid">
+
+    <div class="flip-card">
+      <div class="flip-inner">
+        <div class="flip-front">
+          <img src="assets/img/ketua.jpg" alt="Ketua">
+          <h3>Ahmad Fauzi</h3>
+          <p>Ketua Umum</p>
+        </div>
+        <div class="flip-back">
+          <p>Memimpin dan mengkoordinasi seluruh kegiatan RISMA agar berjalan efektif dan penuh semangat ukhuwah.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-inner">
+        <div class="flip-front">
+          <img src="assets/img/wakil.jpg" alt="Wakil Ketua">
+          <h3>Nur Aini</h3>
+          <p>Wakil Ketua</p>
+        </div>
+        <div class="flip-back">
+          <p>Mendampingi ketua serta memastikan seluruh bidang berjalan sesuai program kerja.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-inner">
+        <div class="flip-front">
+          <img src="assets/img/sekretaris.jpg" alt="Sekretaris">
+          <h3>Fajar Agus</h3>
+          <p>Sekretaris</p>
+        </div>
+        <div class="flip-back">
+          <p>Mengelola administrasi dan dokumentasi kegiatan organisasi dengan rapi dan kreatif.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-inner">
+        <div class="flip-front">
+          <img src="assets/img/bendahara.jpg" alt="Bendahara">
+          <h3>Laila Sari</h3>
+          <p>Bendahara</p>
+        </div>
+        <div class="flip-back">
+          <p>Mengelola keuangan kegiatan RISMA secara transparan, amanah, dan terencana.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- Tentang -->
+  <section id="tentang" class="fade-in">
+    <h2>Tentang Kami</h2>
+    <p>RISMA Al-Muhajirin adalah wadah bagi remaja masjid untuk belajar, berkreasi, dan berkontribusi melalui kegiatan Islami dan sosial, menumbuhkan semangat ukhuwah Islamiyah di kalangan generasi muda.</p>
+  </section>
+
+  <!-- Kontak -->
+<section id="kontak" class="fade-in">
+  <h2>Kontak Kami</h2>
+
+  <div class="kontak-container">
+
+    <!-- Info Card -->
+    <div class="kontak-info">
+      <h3>Hubungi Kami</h3>
+      <p>Masjid Al-Muhajirin, Jl. H. Sulaiman No. 45, Bekasi Selatan</p>
+      <p><strong>Email:</strong> risma.almuhajirin@gmail.com</p>
+      <p><strong>Telp:</strong> +62 857 1234 5678</p>
+
+      <div class="sosmed">
+        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="#" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      </div>
+      
+    <div class="map-container">
+        <h3>📍 Lokasi Masjid Kami</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.4300000000003!2d106.56913961521266!3d-6.308430994738802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fc497591634f%3A0x25d52c8c0dcdd211!2sMasjid%20Al-Muhajirin%2C%20Binong%20Permai%20Blok%20P1%2C%20P17%20No.3%2C%20Jalan%20Perum%2C%20Curug%2C%20Sukabakti%2C%20Kab.%20Tangerang%2C%20Banten%2015810!5e0!3m2!1sid!2sid!4v1699440000000!5m2!1sid!2sid"
+          width="100%"
+          height="350"
+          style="border:0; border-radius:12px;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer-full">
+  <div class="footer-container">
+    <p>© 2025 RISMA Al-Muhajirin | Remaja Islam Masjid</p>
+    <div class="footer-links">
+      <a href="#beranda">Beranda</a> |
+      <a href="#kegiatan">Kegiatan</a> |
+      <a href="#kontak">Kontak</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
